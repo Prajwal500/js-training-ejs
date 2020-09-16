@@ -1,0 +1,13 @@
+function rightJustify(s) {
+    let a = " ";
+
+    for (a = " "; a.length <= 70 - s.length; a = a + " ") {
+
+    }
+    for( let j = 0; j < s.length; j = j+1 ) {
+        a += s[j];
+    }
+    return console.log(a);
+}
+
+console.log(rightJustify("ray"));

@@ -1,0 +1,12 @@
+function checkFermat(a, b, c, n ) {
+    if ( (n > 2) || ( a**n + b**n === c**n) ) {
+        console.log("Holy smokes, Fermat was wrong!");
+
+    }
+    else {
+        console.log("No, that doesn't work.")
+    }
+
+
+}
+checkFermat(1,5,2,1);

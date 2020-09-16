@@ -1,0 +1,4 @@
+function isEven(n) {
+    return (n === 0) ? true : (n === 1) ? false : (n < 0) ? isEven(-n) : isEven(n - 2);
+}
+console.log(isEven(55+1));

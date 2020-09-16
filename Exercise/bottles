@@ -1,0 +1,22 @@
+function songs(x) {
+    console.log(x, "bottles of water on the wall,");
+    console.log(x, "bottles of water,");
+    console.log("ya’ take one down, ya’ pass it around,");
+    console.log(x-1,"bottleas of water on the wall.")
+}
+function bottles(n) {
+    for( let i = n; i >= 0; i = i - 1) {
+        if(i > 0) {
+            songs(i);
+        }
+        else {
+            console.log("No bottles of water on the wall,");
+            console.log("No bottles of water,");
+            console.log("ya’ can't take one down, ya’ can't pass it around,");
+            console.log("cause there are no more bottles of water on the wall.")
+
+        }
+    }
+
+}
+bottles(99);
