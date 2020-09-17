@@ -1,0 +1,3 @@
+function test(label, body) {
+    if (!body()) console.log(`Failed: ${label}`);
+}
