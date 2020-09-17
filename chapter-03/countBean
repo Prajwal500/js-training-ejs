@@ -1,0 +1,22 @@
+function countBs(s) {
+    let count = 0;
+
+    for (let i = 0; i < s.length; i = i + 1) {
+        if (s[i] === 'B') {
+            count += 1;
+        }
+    }
+    return count;
+}
+function countChar(strr, chr ) {
+    let count = 0;
+
+    for ( let j = 0; j < strr.length; j = j + 1) {
+        if (strr[j] === chr) {
+            count += 1;
+        }
+    }
+    return count;
+}
+console.log(countBs("BBBBC"));
+console.log(countChar("kakkerlak", "a"));
