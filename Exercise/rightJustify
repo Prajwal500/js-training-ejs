@@ -1,13 +1,15 @@
 function rightJustify(s) {
     let a = " ";
+    let count = 0;
 
     for (a = " "; a.length <= 70 - s.length; a = a + " ") {
-
+        count += 1;
     }
-    for( let j = 0; j < s.length; j = j+1 ) {
+
+    for (let j = 0; j < s.length; j = j + 1) {
         a += s[j];
     }
-    return console.log(a);
-}
+    return console.log(a, count);
 
+}
 console.log(rightJustify("ray"));
