@@ -6,9 +6,9 @@ function test(label, body) {
         return console.log(`Success: ${label}`);
     }
 }
-function sqaured(x) {
+function sqaure(x) {
     return x*x;
 }
 test("checking sqaure of 5", () => {
-    return sqaured(5)=== 25;
+    return sqaure(5)=== 25;
 });
