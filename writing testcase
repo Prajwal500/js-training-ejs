@@ -1,0 +1,6 @@
+test("Testing square of 2 returns 4", () => {
+    return square(2) === 4;
+});
+test("Testing square of 2 returns 5", () => {
+    return square(2) === 5;
+});
