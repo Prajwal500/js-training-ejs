@@ -1,0 +1,14 @@
+function test(label, body) {
+    if (!body()) {
+        return console.log(`Failedd: ${label}`);
+    }
+    else {
+        return console.log(`Success: ${label}`);
+    }
+}
+function sqaure(x) {
+    return x*x;
+}
+test("checking sqaure of 5", () => {
+    return sqaure(5)=== 25;
+});
